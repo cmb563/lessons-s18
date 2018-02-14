@@ -98,8 +98,141 @@ a:active {
 	text-decoration: none;
 }
 
+/* Buttons */
 
+.button-holder {
+	width: 100%;
+	padding: 100px 0;
+	background: #94ddff;
+	text-align: center;
+}
 
+.btn {
+	display: inline-block;
+	padding: 0 25px;
+	background: #7dbbe6;
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: 47px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.btn:link {
+	color: #000000;
+	text-decoration: none;
+}
+.btn:hover {
+	background: #7199b3;
+	color: #ffffff;
+} 
+
+.lt-otl-btn {
+	display: inline-block;
+	padding: 0 25px;
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: 47px;
+	border-radius: 5px;
+	border: 1px solid #ffffff;
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.lt-otl-btn:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.lt-otl-btn:hover {
+	border: 1px solid #000000;
+	color: #000000;
+}
+
+.drk-otl-btn {
+	display: inline-block;
+	padding: 0 25px;
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: 47px;
+	border-radius: 5px;
+	border: 1px solid #000000;
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.drk-otl-btn:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+.drk-otl-btn:hover {
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.send-btn {
+	display: inline-block;
+	padding: 0 40px;
+	background: #7dbbe6;
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: 47px;
+	border-radius: 25px;
+	border: none;
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+}
+
+.send-btn:hover {
+	background: #7199b3;
+	color: #ffffff;
+}
+.lt-otl-send-btn {
+	display: inline-block;
+	padding: 0 40px;
+	background: none;
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: 47px;
+	border-radius: 25px;
+	border: 1px solid #ffffff;
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.lt-otl-send-btn:hover {
+	border: 1px solid #000000;
+	color: #000000;
+}
+
+.drk-otl-send-btn {
+	display: inline-block;
+	padding: 0 40px;
+	background: none;
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: 47px;
+	border-radius: 25px;
+	border: 1px solid #000000;
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+}
+
+.drk-otl-send-btn:hover {
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
 /* Simple Grid */ 
 	
 
